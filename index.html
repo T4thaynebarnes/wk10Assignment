@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week 10 assignment</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body class="bg-info">
+    <br />
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm">
+              <div class="form-group">
+                <label class="mb-2" for="new-name"
+                  >Please fill this form out about your padawan</label
+                >
+                <br />
+
+                <input
+                  id="name-txt"
+                  type="text"
+                  class="form-control"
+                  placeholder="padawan's name"
+                  autocomplete="off"
+                  autofill="off"
+                />
+                <input
+                  id="species-txt"
+                  type="text"
+                  class="form-control mt-2"
+                  placeholder="Species"
+                  autocomplete="off"
+                />
+                <input
+                  id="planet-txt"
+                  type="text"
+                  class="form-control mt-2 mb-2"
+                  placeholder="Home Planet"
+                  autocomplete="off"
+                />
+                <button id="submit-btn" class="btn btn-danger">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table id="table" class="table table-dark table-striped">
+      <tr>
+        <th>Padawan Name</th>
+        <th>Species</th>
+        <th>Home Planet</th>
+      </tr>
+    </table>
+    <!-- ****************************************************** -->
+    <!-- linking javascript file apps.js -->
+    <script src="apps.js"></script>
+    <!-- linking bootstrap  -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- linking Jquery  -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+  </body>
+</html>
